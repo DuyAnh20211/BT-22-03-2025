@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background: #184795;
+    width: 100%;
+}
+
+header {
+    padding: 100px 0 70px 0;
+    background: url("./img/123Z_2101.w020.n001.947B.p15.947.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    min-height: calc(90vh - 200px);
+}
+
+.main-content {
+    position: relative;
+    width: 100%;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+.nav-search input {
+    margin: 20px;
+    width: 80%;
+    height: 2.5em;
+    border-radius: 10px;
+    border: none;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#listMovie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+}
+
+.item-movie {
+    position: relative;
+    width: 150px;
+}
+
+.item-movie img {
+    width: 150px;
+    height: 255px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, .1);
+}
+
+.item-popularity {
+    position: absolute;
+    top: -2%;
+    right: 135px;
+    background: greenyellow;
+    border-radius: 50px;
+    text-align: center;
+    width: 10%;
+    height: 15px;
+    padding: 5px;
+}
+
+.content {
+    padding: 0px 10px 0 10px;
+}
+
+.content h2 {
+    max-width: 100%;
+    font-size: 1.6em;
+}
+
+.content p {
+    font-size: 1.3em;
+    color: darkgrey;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 30px;
+    gap: 20px;
+    background: #121212;
+    color: white;
+    padding: 70px 0 70px 0;
+}
+
+@media screen and (max-width: 932px) {
+    .title {
+        display: flex;
+        justify-content: center;
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+
+    .item-popularity {
+        position: absolute;
+        top: -2%;
+        right: 135px;
+        background: greenyellow;
+        border-radius: 50px;
+        text-align: center;
+        width: 10%;
+        height: 15px;
+        padding: 5px;
+    }
+}
