@@ -20,7 +20,6 @@ $(function () {
                         <div class ="item-popularity">
                             <span>${Math.floor(item.popularity)}</span>
                         </div>
-                        <canvas height="34" width="34"></canvas>
                         <div class = "content">
                             <h2>${item.known_for[0].title}</h2>
                             <p>${item.known_for[0].release_date}</p>
