@@ -13,6 +13,7 @@ $(function () {
         success: function (data) {
             console.log(data.results);
             const dataMovie = data.results.slice(0, 5);
+            console.log(dataMovie);
             dataMovie.forEach(item => {
                 innerHTML += `
                     <div class= "item-movie">
